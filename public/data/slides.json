@@ -1,0 +1,36 @@
+[
+  {
+    "eyebrow": "Market Thesis",
+    "title": "Agentic AI is becoming the new enterprise operating layer",
+    "subtitle": "Autonomous workflows are moving from experimental pilots into production systems.",
+    "narrative": "The market is shifting from chat-based assistance toward agents that plan, call tools, execute tasks, and improve operational leverage across software, services, and knowledge work.",
+    "metrics": [
+      { "value": "2026", "label": "Expected acceleration point for agentic production adoption" },
+      { "value": "3x", "label": "Typical workflow compression target in agent deployments" },
+      { "value": "24/7", "label": "Always-on execution model for digital operations" }
+    ],
+    "insights": [
+      { "title": "From copilots to operators", "description": "Enterprises are prioritizing agents that complete outcomes, not tools that only suggest next steps." },
+      { "title": "Infrastructure convergence", "description": "Model orchestration, memory, permissions, observability, and workflow engines are merging into agent platforms." },
+      { "title": "Governance as differentiator", "description": "Trust, auditability, and policy controls are becoming purchase requirements for enterprise adoption." }
+    ],
+    "accentClass": "bg-cyan-500/20"
+  },
+  {
+    "eyebrow": "Executive Context",
+    "title": "The business case is productivity, speed, and decision quality",
+    "subtitle": "Agentic systems target high-friction processes where latency and coordination costs are expensive.",
+    "narrative": "The strongest opportunities sit in workflows with repeatable logic, fragmented data, manual approvals, and measurable cycle-time reduction potential.",
+    "metrics": [
+      { "value": "40%", "label": "Knowledge work tasks with automation or augmentation potential" },
+      { "value": "10x", "label": "Increase in task throughput for narrow agent workflows" },
+      { "value": "5", "label": "Common enterprise functions affected first" }
+    ],
+    "insights": [
+      { "title": "Prioritize measurable workflows", "description": "Customer support, sales operations, finance operations, engineering, and legal operations show clear ROI paths." },
+      { "title": "Human-in-the-loop remains central", "description": "The winning operating model combines autonomous execution with escalation and approval checkpoints." },
+      { "title": "Cost control matters", "description": "Inference cost, tool latency, and failure recovery must be engineered into the deployment model." }
+    ],
+    "accentClass": "bg-blue-500/20"
+  }
+]
