@@ -1,75 +1,43 @@
-# Nuxt Minimal Starter
+# Strategic Intelligence Presentation System
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A high-fidelity, professional presentation orchestrator built with **Nuxt 3**, **Tailwind CSS**, and **Pinia**. This system is specifically engineered to generate "System of Action" slide decks optimized for LinkedIn carousel posts and executive reports.
 
-## Setup
+## 🚀 Key Features
 
-Make sure to install dependencies:
+* **PDF-First Architecture**: Layouts are strategically stabilized to ensure zero content clipping during PDF export.
+* **Dynamic Data Driven**: Slides are managed via a centralized JSON structure (`slides.json`) and a global Pinia store.
+* **High-End Typography**: Uses italicized, uppercase, and tracked typography for a "Strategic Transformation" aesthetic.
+* **Automated Workflow**: Support for Playwright-based automated slide capturing.
 
-```bash
-# npm
-npm install
+## ⚠️ Important Implementation Note (Please Read)
 
-# pnpm
-pnpm install
+### Web View vs. PDF Output
+> [!IMPORTANT]  
+> **Layout Behavior**: You may notice that certain long titles or complex data grids appear "clipped" or "overflowed" when viewing the slides in a standard web browser.
+> 
+> **The Reason**: This is an intentional design choice. The CSS and Flexbox logic are optimized for **PDF Rendering (Print Mode)** to ensure every piece of evidence and data is perfectly captured in the final document.
+> 
+> **The Solution**: 
+> * Do not attempt to "fix" the web-view overflow by adding `h-full` or `overflow-hidden` to the containers, as this will break the PDF export.
+> * To see the complete, unclipped content, open the browser's print dialog (**Ctrl + P** / **Cmd + P**) or run the automated PDF generation script. The print engine will automatically re-calculate the heights to ensure 100% visibility of all strategic data.
 
-# yarn
-yarn install
+## 🛠 Tech Stack
 
-# bun
-bun install
-```
+* **Framework**: Nuxt 3 (Vue.js)
+* **State Management**: Pinia
+* **Styling**: Tailwind CSS
+* **Icons/Visuals**: Lucide Vue / Heroicons
+* **Export**: Playwright / Browser Print Engine
 
-## Development Server
+## 📂 Project Structure
 
-Start the development server on `http://localhost:3000`:
+* `app/components/slides/`: Modular slide layouts (Hero, Main, Graph, Summary, etc.).
+* `app/stores/`: Pinia store handling navigation and data initialization.
+* `app/assets/data/`: Centralized JSON content.
+* `app/types/`: TypeScript interfaces ensuring data consistency.
 
-```bash
-# npm
-npm run dev
+## 📥 Installation & Usage
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+1. **Install dependencies**:
+   ```bash
+   pnpm install
