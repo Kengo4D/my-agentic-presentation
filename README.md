@@ -1,13 +1,13 @@
-# Strategic Intelligence Presentation System
+# Strategic Intelligence Presentation System (Nuxt 4 Optimized)
 
-A high-fidelity, professional presentation orchestrator built with **Nuxt 3**, **Tailwind CSS**, and **Pinia**. This system is specifically engineered to generate "System of Action" slide decks optimized for LinkedIn carousel posts and executive reports.
+A high-fidelity, professional presentation orchestrator built with **Nuxt 4**, **Tailwind CSS**, and **Pinia**. This system is specifically engineered to generate "System of Action" slide decks optimized for LinkedIn carousel posts and executive reports.
 
 ## 🚀 Key Features
 
-* **PDF-First Architecture**: Layouts are strategically stabilized to ensure zero content clipping during PDF export.
+* **Nuxt 4 Architecture**: Leverages the latest `app/` directory structure and enhanced type safety.
+* **PDF-First Design**: Layouts are strategically stabilized to ensure zero content clipping during PDF export.
 * **Dynamic Data Driven**: Slides are managed via a centralized JSON structure (`slides.json`) and a global Pinia store.
 * **High-End Typography**: Uses italicized, uppercase, and tracked typography for a "Strategic Transformation" aesthetic.
-* **Automated Workflow**: Support for Playwright-based automated slide capturing.
 
 ## ⚠️ Important Implementation Note (Please Read)
 
@@ -23,18 +23,17 @@ A high-fidelity, professional presentation orchestrator built with **Nuxt 3**, *
 
 ## 🛠 Tech Stack
 
-* **Framework**: Nuxt 3 (Vue.js)
+* **Framework**: Nuxt 4
 * **State Management**: Pinia
 * **Styling**: Tailwind CSS
-* **Icons/Visuals**: Lucide Vue / Heroicons
 * **Export**: Playwright / Browser Print Engine
 
-## 📂 Project Structure
+## 📂 Project Structure (Nuxt 4)
 
 * `app/components/slides/`: Modular slide layouts (Hero, Main, Graph, Summary, etc.).
 * `app/stores/`: Pinia store handling navigation and data initialization.
 * `app/assets/data/`: Centralized JSON content.
-* `app/types/`: TypeScript interfaces ensuring data consistency.
+* `app/types/`: TypeScript interfaces ensuring data consistency across the Nuxt 4 app.
 
 ## 📥 Installation & Usage
 
