@@ -49,16 +49,6 @@ We highly encourage you to **remix and experiment**! By modifying the `slides.js
 
 * **Automation Engine**: Playwright & pdf-lib (for professional PDF orchestration)
 
-## 📂 Project Structure (Nuxt 4)
-
-* `app/components/slides/`: Modular slide layouts.
-
-* `app/assets/data/`: `slides.json` - The core data file you can customize.
-
-* `app/stores/`: Pinia store handling navigation and data initialization.
-
-* `app/types/`: TypeScript interfaces ensuring data consistency.
-
 ## 📥 Installation & Usage
 
 1. **Install dependencies**:
