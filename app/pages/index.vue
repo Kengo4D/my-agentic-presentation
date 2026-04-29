@@ -1,43 +1,79 @@
 <script setup lang="ts">
 /**
- * @file pages/index.vue
- * @description Ensuring the slider synchronizes with fetched data.
+ * Slide Orchestrator
+ * Pure logic for rendering slides without IndexList.
  */
-import type { AgenticSlideData } from '~/components/AgenticSlide.vue'
+import { storeToRefs } from 'pinia'
+import { usePresentationStore } from '~/stores/presentation'
+import slideData from '~/assets/data/slides.json'
+import type { SlideData } from '~/types/presentation'
 
-// 1. Fetch data (Wait for resolution)
-const { data: slides } = await useAsyncData<AgenticSlideData[]>('slides', async () => {
-  try {
-    return await $fetch<AgenticSlideData[]>('/data/slides.json')
-  } catch (e) {
-    const backup = await import('~/assets/data/slides.json')
-    return backup.default as AgenticSlideData[]
-  }
+definePageMeta({ layout: 'presentation' })
+
+const store = usePresentationStore()
+const { currentIndex, currentSlide, slides } = storeToRefs(store)
+
+const data = slideData as unknown as SlideData
+
+if (slides.value.length === 0) {
+  const filteredSlides = data.slides.filter(s => s.layout !== 'index')
+  store.setSlides(filteredSlides)
+}
+
+const slide = computed(() => currentSlide.value)
+
+const next = () => store.nextSlide()
+const prev = () => store.prevSlide()
+
+onMounted(() => {
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight' || e.key === ' ') next()
+    if (e.key === 'ArrowLeft') prev()
+  })
 })
-
-// 2. Initialize and sync state
-const { currentIndex, syncTotalSlides } = useSliderState()
-
-// Ensure total count is updated once slides are loaded
-watchEffect(() => {
-  if (slides.value) {
-    syncTotalSlides(slides.value.length)
-  }
-})
-
-// 3. Active slide reference
-const currentSlide = computed(() => slides.value?.[currentIndex.value] ?? null)
 </script>
 
 <template>
-  <main v-if="currentSlide">
-    <AgenticSlide
-      v-bind="currentSlide"
-      :slide-number="currentIndex + 1"
-      :total-slides="slides?.length || 0"
-    />
-  </main>
-  <div v-else class="flex min-h-screen items-center justify-center bg-slate-950 text-white text-2xl font-light tracking-widest">
-    LOADING ASSETS...
+  <div class="h-full w-full flex-1 min-h-0 relative bg-[#020617] overflow-hidden">
+    <Transition name="slide-fade" mode="out-in">
+      <div v-if="slide" :key="currentIndex" class="h-full w-full">
+        
+        <SlidesHero 
+          v-if="slide.layout === 'hero'" 
+          :content="slide.content" 
+        />
+
+        <SlidesMain 
+          v-else-if="slide.layout === 'main'" 
+          :content="slide.content"
+          :slide-number="currentIndex + 1"
+          :total-slides="slides.length"
+        />
+
+        <SlidesGraph 
+          v-else-if="slide.layout === 'graph'" 
+          :content="slide.content" 
+        />
+
+        <SlidesTestimonial 
+          v-else-if="slide.layout === 'testimonial'" 
+          :content="slide.content" 
+        />
+
+        <SlidesSummary 
+          v-else-if="slide.layout === 'summary'" 
+          :content="slide.content" 
+        />
+        
+      </div>
+    </Transition>
   </div>
 </template>
+
+<style scoped>
+.slide-fade-enter-active, .slide-fade-leave-active { 
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); 
+}
+.slide-fade-enter-from { opacity: 0; transform: scale(0.98); }
+.slide-fade-leave-to { opacity: 0; transform: scale(1.02); }
+</style>
