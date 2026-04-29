@@ -1,6 +1,6 @@
 # Strategic Intelligence Presentation System (Nuxt 4 Optimized)
 
-A high-fidelity, professional presentation orchestrator built with **Nuxt 4**, **Tailwind CSS**, and **Pinia**. This system is specifically engineered to generate "System of Action" slide decks optimized for LinkedIn carousel posts and executive reports.
+A high-fidelity, professional presentation orchestrator built with **Nuxt 4**, **Tailwind CSS**, and **Pinia**. This system is specifically engineered to generate "System of Action" slide decks optimized for carousel posts and executive reports.
 
 ## 🚀 Key Features
 
