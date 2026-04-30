@@ -4,27 +4,30 @@
       "id": 1,
       "layout": "hero",
       "content": {
-        "title": "TDSC in 2026: Japan’s Power-Device and Storage Repositioning",
-        "subtitle": "Consolidation, SiC/GaN Innovation, and AI-Driven Demand",
-        "message": "Toshiba Electronic Devices & Storage Corporation enters 2026 with a strategic focus on infrastructure electrification and AI-driven data storage growth.",
+        "title": "VBScript Is Becoming a Platform Risk",
+        "subtitle": "2026: The Migration Planning Year for SAP Users",
+        "message": "Microsoft has deprecated VBScript. For SAP automation teams, this turns legacy GUI scripts from a convenience into a critical business continuity risk.",
         "metrics": [
-          { "label": "Japan Semi Market 2026", "value": "$54.29B" },
-          { "label": "Forecast CAGR", "value": "15.8%" }
+          { "label": "Default Disabled", "value": "2027" },
+          { "label": "Current Status", "value": "FOD (Win 11)" }
         ]
       }
     },
     {
       "id": 2,
-      "layout": "graph",
+      "layout": "main",
       "content": {
-        "title": "Japan Semiconductor Market Re-Accelerates",
-        "subtitle": "A larger domestic market creates stronger pull for TDSC",
-        "message": "The Japanese market is projected to triple by 2034, reaching $175B, driven by national electrification goals.",
-        "chartData": [48.2, 54.29, 175.25],
-        "labels": ["2025", "2026", "2034"],
+        "title": "Why SAP Users Are Exposed",
+        "subtitle": "Invisible dependencies outside the strategic stack",
+        "keyPoints": [
+          "Legacy reliance on .vbs launchers for unattended SAP GUI scripting.",
+          "Complex dependencies between Excel/VBA, COM objects, and file handling.",
+          "Undocumented desktop task automations creating 'shadow IT' risks.",
+          "Migration trigger: VBScript removal from future Windows releases."
+        ],
         "metrics": [
-          { "label": "2026 Market Size", "value": "$54.29B" },
-          { "label": "2034 Forecast", "value": "$175.25B" }
+          { "label": "Primary Risk Year", "value": "2026" },
+          { "label": "Technical Fragility", "value": "High" }
         ]
       }
     },
@@ -32,35 +35,32 @@
       "id": 3,
       "layout": "main",
       "content": {
-        "title": "Strategic Shock: Toshiba–ROHM–Mitsubishi Integration",
-        "subtitle": "Structural realignment to build global scale",
+        "title": "2026 Decision Framework",
+        "subtitle": "Matching the process to the right target architecture",
         "keyPoints": [
-          "March 2026: MoU signed for discussions on integrating semiconductor/power-device businesses.",
-          "Parties: TDSC, ROHM, Mitsubishi Electric, and investment partners (JIP/TBJ).",
-          "Objective: Creating a technology foundation capable of competing in the global market.",
-          "Shift from fragmented domestic capability to an integrated national-scale platform."
+          "Low Complexity: Replace with PowerShell or JavaScript/TypeScript.",
+          "High Integration: Prioritize SAP APIs (OData/REST) and BTP services.",
+          "Legacy Gaps: Use governed Enterprise RPA as a bridge for GUI screens.",
+          "Modern Choice: SAP Build Process Automation for business-led workflows."
         ],
         "metrics": [
-          { "label": "Parties Involved", "value": "3 Core Cos" },
-          { "label": "MoU Date", "value": "Mar 27, 2026" }
+          { "label": "Migration Paths", "value": "5 Types" },
+          { "label": "Strategic Focus", "value": "API-First" }
         ]
       }
     },
     {
       "id": 4,
-      "layout": "main",
+      "layout": "graph",
       "content": {
-        "title": "Power Semiconductors: Si, SiC, and GaN Expansion",
-        "subtitle": "Spanning EVs, Data Centers, and Infrastructure",
-        "keyPoints": [
-          "Automotive: SiC die and modules in 750V and 1200V classes for EV drivetrains.",
-          "Data Centers: High-efficiency 3kW PSU reference designs using GaN/SiC FETs.",
-          "Industrial: Next-generation motor-control and UMOS 11 MOSFET families.",
-          "Infrastructure: High-voltage protection and isolation devices for grid-level systems."
-        ],
+        "title": "Market Momentum: RPA Still Growing",
+        "subtitle": "Bridging the gap for legacy SAP GUI screens",
+        "message": "The RPA market continues to expand at a 29% CAGR, shifting from simple screen scraping to governed automation platforms.",
+        "chartData": [6.04, 35.84],
+        "labels": ["2026", "2033"],
         "metrics": [
-          { "label": "Server PSU Design", "value": "3kW" },
-          { "label": "Tech Families", "value": "Si/SiC/GaN" }
+          { "label": "2026 Market Size", "value": "$6.04B" },
+          { "label": "2033 Forecast", "value": "$35.84B" }
         ]
       }
     },
@@ -68,14 +68,14 @@
       "id": 5,
       "layout": "graph",
       "content": {
-        "title": "Efficiency Proof: Next-Gen MOSFET & SiC Performance",
-        "subtitle": "Measurable R&D performance improvements in 2026",
-        "message": "Toshiba's U-MOS11-H and SiC Trench technologies show dramatic power-loss and resistance reductions.",
-        "chartData": [62, 30],
-        "labels": ["U-MOS11-H Index Improv.", "SiC Trench RDS Improv."],
+        "title": "Low-Code: The New Enterprise Default",
+        "subtitle": "Scaling beyond traditional script maintenance",
+        "message": "Low-code platforms are projected to reach $376B by 2034, offering a governance upgrade for fragile scripts.",
+        "chartData": [48.91, 376.92],
+        "labels": ["2026", "2034"],
         "metrics": [
-          { "label": "Loss-Index Reduction", "value": "62%" },
-          { "label": "On-Resistance Improv.", "value": "30%" }
+          { "label": "2026-34 CAGR", "value": "29.1%" },
+          { "label": "Strategic Role", "value": "Governance" }
         ]
       }
     },
@@ -83,82 +83,101 @@
       "id": 6,
       "layout": "main",
       "content": {
-        "title": "Strategic Demand Pools: Automotive & Data Centers",
-        "subtitle": "Alignment with Japan’s fastest-growing use cases",
+        "title": "SAP Cloud Momentum Pulls Automation Forward",
+        "subtitle": "Aligning modernization with SAP Q1 2026 results",
         "keyPoints": [
-          "Automotive: Strong pull from EV drivetrain inverters, ADAS, and body electronics.",
-          "Data Centers: Critical demand for power efficiency in AI servers and thermal management.",
-          "Networking: 5G base stations and DC-DC converters account for 32.7% application share.",
-          "Industrial: Expansion in motor drives and high-precision automation controls."
+          "Cloud ERP Suite revenue growth at +30% reinforces BTP-aligned strategy.",
+          "Current cloud backlog reached €21.9B as of early 2026.",
+          "Modernization should follow Cloud ERP patterns, not desktop-bound VBScript.",
+          "Strategic goal: Gains in market share through AI-driven cloud solutions."
         ],
         "metrics": [
-          { "label": "Networking Share", "value": "32.7%" },
-          { "label": "Priority Pools", "value": "Auto/AI-DC" }
+          { "label": "Cloud Growth", "value": "+27%" },
+          { "label": "ERP Suite Growth", "value": "+30%" }
         ]
       }
     },
     {
       "id": 7,
-      "layout": "graph",
+      "layout": "main",
       "content": {
-        "title": "Storage Trend: AI Workloads Keep HDDs Strategic",
-        "subtitle": "Benefiting from AI-era capacity pressure",
-        "message": "Global storage requirements are forecast to nearly double by 2029, reaching 20,000 exabytes.",
-        "chartData": [10000, 20000],
-        "labels": ["2025 (Est)", "2029 (Forecast)"],
+        "title": "Target Architecture After VBScript",
+        "subtitle": "A resilient, layered automation stack",
+        "keyPoints": [
+          "Orchestration: SAP Build Process Automation for approvals and rules.",
+          "Integration: SAP Integration Suite (REST/OData) as the core engine.",
+          "Execution: Tactical use of PowerShell/JS for OS and file tasks.",
+          "Intelligence: Joule Studio and AI Core for contextual multi-step tasks."
+        ],
         "metrics": [
-          { "label": "2029 Storage Requirement", "value": "20k Exabytes" },
-          { "label": "Demand Growth", "value": "Nearly 2x" }
+          { "label": "Architecture Layers", "value": "6 Levels" },
+          { "label": "AI Tool Path", "value": "BTP Aligned" }
         ]
       }
     },
     {
       "id": 8,
-      "layout": "main",
+      "layout": "summary",
       "content": {
-        "title": "Competitive Landscape: Major Japanese Players",
-        "subtitle": "Toshiba's position in the domestic semiconductor ecosystem",
-        "keyPoints": [
-          "Discrete/Logic/Analog: TDSC remains a global leader in power and storage.",
-          "Memory: Kioxia (NAND) remains a key related player.",
-          "Consolidation Group: Integration talks with ROHM and Mitsubishi Electric create a new power-giant.",
-          "Other Peers: Sony (Image sensors), Renesas (MCUs), Murata (Components)."
+        "title": "Alternative Selection Guide",
+        "subtitle": "Matching workload to replacement pattern",
+        "body": [
+          "PowerShell: Best for file handling and local Windows administration.",
+          "JavaScript/TS: Strong fit for BTP extensions and modern web stacks.",
+          "SAP Build: Strategic native option for process automation and rules.",
+          "Enterprise RPA: Necessary bridge for non-API legacy GUI screens.",
+          "Joule Agents: Emerging choice for knowledge-heavy, contextual tasks."
         ],
         "metrics": [
-          { "label": "Major Players", "value": "7 Companies" },
-          { "label": "Consolidation Role", "value": "Strategic Core" }
+          { "label": "Alternative Types", "value": "5 Keys" },
+          { "label": "Tactical Choice", "value": "PowerShell" }
         ]
       }
     },
     {
       "id": 9,
-      "layout": "testimonial",
+      "layout": "graph",
       "content": {
-        "title": "Expert Quote: The New Era of Data Growth",
-        "subtitle": "AI and cloud infrastructure drive storage opportunity",
-        "quote": {
-          "text": "For Toshiba and its partners, these trends present both significant opportunities and challenges as the industry adapts to the new era of data growth.",
-          "speaker": "Rainer W. Kaese",
-          "title": "Senior Manager, HDD Business Development"
-        }
+        "title": "Migration Roadmap 2026-2027",
+        "subtitle": "Controlled transition before the default-disable milestone",
+        "message": "A phased approach from Discovery to Governance ensures business continuity without disruption.",
+        "chartData": [20, 40, 60, 80, 100],
+        "labels": ["Discover", "Classify", "Select", "Migrate", "Govern"],
+        "metrics": [
+          { "title": "Critical Phase", "label": "Inventory", "value": "Q2 2026" },
+          { "label": "Deadline", "value": "End of 2026" }
+        ]
       }
     },
     {
       "id": 10,
+      "layout": "testimonial",
+      "content": {
+        "title": "Management View: Strategic Gains",
+        "subtitle": "Growing faster than the market with AI",
+        "quote": {
+          "text": "We are growing faster than the market and are gaining share as customers expand across our Suite and with our AI solutions.",
+          "speaker": "Christian Klein",
+          "title": "CEO, SAP"
+        }
+      }
+    },
+    {
+      "id": 11,
       "layout": "summary",
       "content": {
-        "title": "2026 Strategic Takeaways for TDSC Japan",
-        "subtitle": "Convergence of policy, scale, and infrastructure",
+        "title": "Executive Recommendation",
+        "subtitle": " Modernizing the SAP automation window",
         "body": [
-          "Consolidation is the headline: Moving toward a national power-semiconductor champion.",
-          "Scale Advantage: Tapping into a Japan market growing at 15.8% CAGR.",
-          "Efficiency Lead: Technical proof shows 30-62% performance gains in SiC/MOSFET.",
-          "Storage Resurgence: AI infrastructure demand doubles the HDD/SSD capacity requirement.",
-          "Strategic Play: Focus on 'integrated competitiveness' rather than isolated device sales."
+          "Immediate: Launch global inventory of legacy .vbs and GUI scripts.",
+          "Policy: Enforce a 'No New VBScript' mandate for all developers.",
+          "Strategic: Pivot to SAP Build and APIs for critical business processes.",
+          "Tactical: Use PowerShell/JS as a direct replacement for OS-level tasks.",
+          "KPI: Target 80%+ VBScript retirement by the end of 2026."
         ],
         "metrics": [
-          { "label": "Japan Semi Market 2034", "value": "$175.25B" },
-          { "label": "Max Efficiency Gain", "value": "62%" }
+          { "label": "Immediate Action", "value": "Inventory" },
+          { "label": "Retirement Target", "value": "80%+" }
         ]
       }
     }
