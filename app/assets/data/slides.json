@@ -4,44 +4,43 @@
       "id": 1,
       "layout": "hero",
       "content": {
-        "title": "The 2026 Market Evolution of Agentic AI in Enterprise SaaS",
-        "subtitle": "Enterprise software is shifting from systems of record to systems of action",
-        "message": "2026 is the year agentic AI moves from experimental copilots into embedded enterprise execution.",
+        "title": "Phoenix Contact in Japan 2026",
+        "subtitle": "From Components to Resilient Automation Infrastructure",
+        "message": "Japan’s 2026 demand is shifting toward automation, secure connectivity, data-center resilience, and energy-stable infrastructure.",
         "metrics": [
-          { "label": "Enterprise apps with agents by end-2026", "value": "40%" },
-          { "label": "Enterprise apps with agents in 2025", "value": "<5%" }
+          { "label": "Japan factory automation & industrial controls market, 2026", "value": "18.39 USD billion" },
+          { "label": "2031 forecast", "value": "28.57 USD billion" },
+          { "label": "2026-2031 CAGR", "value": "9.21%" }
         ]
       }
     },
     {
       "id": 2,
-      "layout": "index",
+      "layout": "graph",
       "content": {
-        "title": "How the Agentic AI Market Is Reshaping Enterprise SaaS",
-        "points": [
-          "Why traditional SaaS is under pressure",
-          "What agentic AI changes in product architecture",
-          "Where adoption and spending are accelerating",
-          "What risks are slowing scale",
-          "What enterprise SaaS leaders should do next"
+        "title": "Japan Automation Tailwinds Are Quantifiable",
+        "subtitle": "Factory automation spending is expanding from 2026 onward",
+        "message": "Japan’s factory automation and industrial controls market is forecast to grow to USD 28.57B by 2031.",
+        "chartData": [16.84, 18.39, 28.57],
+        "labels": ["2025", "2026", "2031"],
+        "metrics": [
+          { "label": "2026 market size", "value": "$18.39B" },
+          { "label": "CAGR", "value": "9.21%" }
         ]
       }
     },
     {
       "id": 3,
-      "layout": "main",
+      "layout": "graph",
       "content": {
-        "title": "Problem: Traditional SaaS Stops at Assistance, Not Execution",
-        "subtitle": "Copilots help users work; agents can complete the work",
-        "keyPoints": [
-          "Legacy SaaS is optimized for human-operated workflows and seat-based usage.",
-          "GenAI copilots improved search, summarization, and drafting, but not end-to-end execution.",
-          "Enterprises now want AI that can plan, call tools, trigger workflows, and return completed outcomes.",
-          "This pressure is strongest in repetitive, rules-rich, system-connected workflows."
-        ],
+        "title": "Control-System Modernization Is the Faster Layer",
+        "subtitle": "Japan industrial automation and control systems are forecast at 12.1% CAGR",
+        "message": "The broader control-systems market grows from USD 24.5366B in 2025 to USD 61.1875B by 2033.",
+        "chartData": [24.53, 61.18],
+        "labels": ["2025", "2033"],
         "metrics": [
-          { "label": "Organizations already using AI in at least one function", "value": "About 80%" },
-          { "label": "Organizations regularly using genAI", "value": "About 70%" }
+          { "label": "CAGR", "value": "12.1%" },
+          { "label": "Fastest segment", "value": "SCADA" }
         ]
       }
     },
@@ -49,17 +48,16 @@
       "id": 4,
       "layout": "main",
       "content": {
-        "title": "Solution: Agentic AI Turns SaaS Into a System of Action",
-        "subtitle": "The product shift is from prompt-response interfaces to workflow execution layers",
+        "title": "Hardware Remains the Base; Services Are the Upside",
+        "subtitle": "Japan automation revenue is still hardware-heavy, but services grow faster",
         "keyPoints": [
-          "Agents can reason across tasks, retrieve context, call APIs, and execute multi-step workflows.",
-          "Enterprise value comes from combining models with workflow permissions, business logic, and data context.",
-          "The winning product pattern is not standalone chat; it is embedded, permission-aware workflow automation.",
-          "This creates a new control layer above applications and across SaaS ecosystems."
+          "Hardware represented 58.12% of 2025 revenue.",
+          "Services are forecast to grow at 10.41% CAGR through 2031.",
+          "SME segment shows strong growth potential at 10.68% CAGR."
         ],
         "metrics": [
-          { "label": "Organizations that have deployed AI agents", "value": "17%" },
-          { "label": "Organizations expecting deployment within 2 years", "value": ">60%" }
+          { "label": "Hardware share", "value": "58.12%" },
+          { "label": "Services CAGR", "value": "10.41%" }
         ]
       }
     },
@@ -67,18 +65,17 @@
       "id": 5,
       "layout": "main",
       "content": {
-        "title": "Market Impact: Embedded Agents Are Becoming a Default SaaS Capability",
-        "subtitle": "Enterprise applications are absorbing agentic functionality fast",
+        "title": "PLC, MES, and Edge: The Factory Data Stack Opportunity",
+        "subtitle": "Connecting field devices to digital production systems",
         "keyPoints": [
-          "Gartner expects 40% of enterprise applications to include task-specific AI agents by end-2026.",
-          "That compares with less than 5% in 2025.",
-          "This implies an approximate 8x rise in agent penetration inside enterprise apps in about a year.",
-          "For buyers, the question shifts from 'Should we use agents?' to 'Where should we build vs buy?'"
+          "Field Level: Sensors, I/O, Terminal blocks, Connectors",
+          "Control Level: PLCnext, Controllers, Industrial PCs",
+          "Network Level: Managed switches, PoE, Industrial Ethernet",
+          "Operations Level: SCADA, MES, Edge analytics"
         ],
         "metrics": [
-          { "label": "Enterprise app penetration 2025", "value": "<5%" },
-          { "label": "Enterprise app penetration 2026E", "value": "40%" },
-          { "label": "Approximate increase", "value": "8x"}
+          { "label": "PLC solutions share", "value": "36.35%" },
+          { "label": "MES CAGR", "value": "9.95%" }
         ]
       }
     },
@@ -86,17 +83,16 @@
       "id": 6,
       "layout": "main",
       "content": {
-        "title": "Business Model Shift: Monetization Is Moving From Seats to Work and Outcomes",
-        "subtitle": "Agentic SaaS changes how value is priced and measured",
+        "title": "Industrial Connectivity: Durable Category, APAC-Led Demand",
+        "subtitle": "Market expansion led by Asia-Pacific growth",
         "keyPoints": [
-          "Autonomous workflows decouple software value from named-user seats.",
-          "Vendors are experimenting with action-based, work-unit, and outcome-based pricing.",
-          "Salesforce has promoted Agentic Work Units as an output-focused metric.",
-          "Gartner's Outcome as Agentic Solution concept signals a broader shift from software access to business results."
+          "Industrial connectors projected to grow to USD 11.65B by 2035.",
+          "APAC accounts for over 44.5% of 2025 revenue.",
+          "Circular connector segment remains a dominant share at 31.5%."
         ],
         "metrics": [
-          { "label": "Legacy pricing basis", "value": "Seats" },
-          { "label": "Emerging pricing basis", "value": "Actions / outcomes" }
+          { "label": "APAC revenue share", "value": "44.5%+" },
+          { "label": "Global CAGR", "value": "3.5%" }
         ]
       }
     },
@@ -104,91 +100,81 @@
       "id": 7,
       "layout": "main",
       "content": {
-        "title": "Constraint: Governance, Security, and Cost Control Are Now the Real Adoption Gates",
-        "subtitle": "The hardest enterprise problem is no longer model access; it's trusted execution at scale",
+        "title": "Data Centers: A Visible 2026 Japan Growth Vector",
+        "subtitle": "Targeting redundancy and secure operations",
         "keyPoints": [
-          "Governance, security, and FinOps are becoming dedicated categories around agentic AI.",
-          "Enterprises worry about permissions, data exposure, auditability, and unmanaged cost.",
-          "Technical orchestration across multiple systems remains difficult even when model quality is strong.",
-          "The strongest SaaS platforms will win on trust and control, not just intelligence."
+          "Focus on Data Center Japan 2026 Exhibition (Booth 2A-09).",
+          "Key solutions: Power Supply, UPS, and Surge protection.",
+          "Targeting secure networking and mission-critical reliability."
         ],
         "metrics": [
-          { "label": "Security / privacy / compliance cited as barrier", "value": "52%" },
-          { "label": "Managing agents at scale cited as barrier", "value": "51%" }
+          { "label": "Event Date", "value": "March 2026" },
+          { "label": "Solution areas", "value": "Power, Cyber, Network" }
         ]
       }
     },
     {
       "id": 8,
-      "layout": "graph",
+      "layout": "main",
       "content": {
-        "title": "Proof #1: Enterprise Adoption Is Early, but the Pipeline Is Large",
-        "subtitle": "Intent to deploy far outpaces current production deployment",
-        "metrics": [
-          { "label": "Current deployment", "value": "17%" },
-          { "label": "Expected deployment within 2 years", "value": ">60%" }
+        "title": "Cybersecure Industrial Networking Becomes Core",
+        "subtitle": "Cybersecurity is now part of OT infrastructure procurement",
+        "keyPoints": [
+          "CRA compliance and IEC 62443 standard compatibility.",
+          "FL MGUARD security product family as a central pillar.",
+          "Integration of secure industrial switches (Unmanaged, PoE, Managed)."
         ],
-        "chartData": [17, 60],
-        "labels": ["Current (2025)", "Planned (2027)"]
+        "metrics": [
+          { "label": "Standard", "value": "IEC 62443" },
+          { "label": "Focus Family", "value": "FL MGUARD" }
+        ]
       }
     },
     {
       "id": 9,
-      "layout": "graph",
+      "layout": "main",
       "content": {
-        "title": "Proof #2: Agent Penetration Inside Enterprise Apps Is Rising Sharply",
-        "subtitle": "Embedded agents are moving from edge feature to standard capability",
-        "metrics": [
-          { "label": "2025 penetration", "value": "<5%" },
-          { "label": "2026 penetration", "value": "40%" }
+        "title": "Phoenix Contact Global Context: Recovery and Localization",
+        "subtitle": "Global investment supports Japan-market credibility",
+        "keyPoints": [
+          "Expected FY2025 turnover of EUR 3.3B with recovery trends.",
+          "Expansion of Vietnam site and Blomberg logistics (200,000 m3).",
+          "Localization efforts ensuring supply continuity for Japanese customers."
         ],
-        "chartData": [5, 40],
-        "labels": ["2025", "2026 (Est)"]
+        "metrics": [
+          { "label": "FY2025 Turnover", "value": "EUR 3.3B" },
+          { "label": "Logistics Target", "value": "2028 Completion" }
+        ]
       }
     },
     {
       "id": 10,
-      "layout": "graph",
-      "content": {
-        "title": "Proof #3: AI Agents Are Becoming a Hypergrowth Software Category",
-        "subtitle": "Forecasts vary, but all point to steep expansion",
-        "metrics": [
-          { "label": "CAGR 2026-2033", "value": "49.6%" }
-        ],
-        "chartData": [7.63, 18.2, 52.6, 182.9],
-        "labels": ["2025", "2027", "2030", "2033"]
-      }
-    },
-    {
-      "id": 11,
       "layout": "testimonial",
       "content": {
-        "title": "What Industry Leaders Are Seeing",
-        "subtitle": "Agentic transformation depends on trusted enterprise context",
+        "title": "Expert Voice: Technology-Led Sustainability",
+        "subtitle": "Strategic alignment with Japan's automation needs",
         "quote": {
-          "text": "As companies move toward becoming agentic enterprises, true transformation happens when data and AI move in lockstep.",
-          "speaker": "Michael Andrew",
-          "title": "Chief Data Officer",
-          "organization": "Salesforce"
+          "text": "Despite all the challenges, we are convinced that technology is the key to a sustainable future.",
+          "speaker": "Ulrich Leidecker",
+          "title": "Chief Operating Officer, Phoenix Contact"
         }
       }
     },
     {
-      "id": 12,
+      "id": 11,
       "layout": "summary",
       "content": {
-        "title": "Bottom Line: The Next SaaS Winners Will Execute Work, Not Just Enable It",
+        "title": "Strategic Implications for Phoenix Contact Japan",
+        "subtitle": "Prioritize solution bundles for high-growth sectors",
         "body": [
-          "Agentic AI is becoming embedded across enterprise applications faster than most SaaS shifts.",
-          "The market is early in deployment but strong in intent and budget momentum.",
-          "Pricing is evolving from seats toward tasks, actions, and outcomes.",
-          "Governance, security, and observability will determine which vendors scale.",
-          "SaaS leaders should embed agents in workflows, monetize outcomes, and build trust controls now."
+          "Prioritize: Data-center redundancy and semiconductor automation bundles.",
+          "Scale: SME automation kits and connector replacement programs.",
+          "Maintain: Standalone terminal block and power supply sales.",
+          "Monitor: AI-native control use cases and new compliance demands."
         ],
         "metrics": [
-          { "label": "Enterprise apps with agents by end-2026", "value": "40%" },
-          { "label": "Organizations expecting deployment in 2 years", "value": ">60%" },
-          { "label": "AI agents market by 2033", "value": "$182.97B" }
+          { "label": "Highest market CAGR", "value": "12.1%" },
+          { "label": "Solution plays", "value": "5 bundles" }
         ]
       }
     }
