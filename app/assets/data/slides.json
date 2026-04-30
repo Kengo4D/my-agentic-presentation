@@ -4,13 +4,12 @@
       "id": 1,
       "layout": "hero",
       "content": {
-        "title": "Phoenix Contact in Japan 2026",
-        "subtitle": "From Components to Resilient Automation Infrastructure",
-        "message": "Japan’s 2026 demand is shifting toward automation, secure connectivity, data-center resilience, and energy-stable infrastructure.",
+        "title": "TDSC in 2026: Japan’s Power-Device and Storage Repositioning",
+        "subtitle": "Consolidation, SiC/GaN Innovation, and AI-Driven Demand",
+        "message": "Toshiba Electronic Devices & Storage Corporation enters 2026 with a strategic focus on infrastructure electrification and AI-driven data storage growth.",
         "metrics": [
-          { "label": "Japan factory automation & industrial controls market, 2026", "value": "18.39 USD billion" },
-          { "label": "2031 forecast", "value": "28.57 USD billion" },
-          { "label": "2026-2031 CAGR", "value": "9.21%" }
+          { "label": "Japan Semi Market 2026", "value": "$54.29B" },
+          { "label": "Forecast CAGR", "value": "15.8%" }
         ]
       }
     },
@@ -18,29 +17,32 @@
       "id": 2,
       "layout": "graph",
       "content": {
-        "title": "Japan Automation Tailwinds Are Quantifiable",
-        "subtitle": "Factory automation spending is expanding from 2026 onward",
-        "message": "Japan’s factory automation and industrial controls market is forecast to grow to USD 28.57B by 2031.",
-        "chartData": [16.84, 18.39, 28.57],
-        "labels": ["2025", "2026", "2031"],
+        "title": "Japan Semiconductor Market Re-Accelerates",
+        "subtitle": "A larger domestic market creates stronger pull for TDSC",
+        "message": "The Japanese market is projected to triple by 2034, reaching $175B, driven by national electrification goals.",
+        "chartData": [48.2, 54.29, 175.25],
+        "labels": ["2025", "2026", "2034"],
         "metrics": [
-          { "label": "2026 market size", "value": "$18.39B" },
-          { "label": "CAGR", "value": "9.21%" }
+          { "label": "2026 Market Size", "value": "$54.29B" },
+          { "label": "2034 Forecast", "value": "$175.25B" }
         ]
       }
     },
     {
       "id": 3,
-      "layout": "graph",
+      "layout": "main",
       "content": {
-        "title": "Control-System Modernization Is the Faster Layer",
-        "subtitle": "Japan industrial automation and control systems are forecast at 12.1% CAGR",
-        "message": "The broader control-systems market grows from USD 24.5366B in 2025 to USD 61.1875B by 2033.",
-        "chartData": [24.53, 61.18],
-        "labels": ["2025", "2033"],
+        "title": "Strategic Shock: Toshiba–ROHM–Mitsubishi Integration",
+        "subtitle": "Structural realignment to build global scale",
+        "keyPoints": [
+          "March 2026: MoU signed for discussions on integrating semiconductor/power-device businesses.",
+          "Parties: TDSC, ROHM, Mitsubishi Electric, and investment partners (JIP/TBJ).",
+          "Objective: Creating a technology foundation capable of competing in the global market.",
+          "Shift from fragmented domestic capability to an integrated national-scale platform."
+        ],
         "metrics": [
-          { "label": "CAGR", "value": "12.1%" },
-          { "label": "Fastest segment", "value": "SCADA" }
+          { "label": "Parties Involved", "value": "3 Core Cos" },
+          { "label": "MoU Date", "value": "Mar 27, 2026" }
         ]
       }
     },
@@ -48,34 +50,32 @@
       "id": 4,
       "layout": "main",
       "content": {
-        "title": "Hardware Remains the Base; Services Are the Upside",
-        "subtitle": "Japan automation revenue is still hardware-heavy, but services grow faster",
+        "title": "Power Semiconductors: Si, SiC, and GaN Expansion",
+        "subtitle": "Spanning EVs, Data Centers, and Infrastructure",
         "keyPoints": [
-          "Hardware represented 58.12% of 2025 revenue.",
-          "Services are forecast to grow at 10.41% CAGR through 2031.",
-          "SME segment shows strong growth potential at 10.68% CAGR."
+          "Automotive: SiC die and modules in 750V and 1200V classes for EV drivetrains.",
+          "Data Centers: High-efficiency 3kW PSU reference designs using GaN/SiC FETs.",
+          "Industrial: Next-generation motor-control and UMOS 11 MOSFET families.",
+          "Infrastructure: High-voltage protection and isolation devices for grid-level systems."
         ],
         "metrics": [
-          { "label": "Hardware share", "value": "58.12%" },
-          { "label": "Services CAGR", "value": "10.41%" }
+          { "label": "Server PSU Design", "value": "3kW" },
+          { "label": "Tech Families", "value": "Si/SiC/GaN" }
         ]
       }
     },
     {
       "id": 5,
-      "layout": "main",
+      "layout": "graph",
       "content": {
-        "title": "PLC, MES, and Edge: The Factory Data Stack Opportunity",
-        "subtitle": "Connecting field devices to digital production systems",
-        "keyPoints": [
-          "Field Level: Sensors, I/O, Terminal blocks, Connectors",
-          "Control Level: PLCnext, Controllers, Industrial PCs",
-          "Network Level: Managed switches, PoE, Industrial Ethernet",
-          "Operations Level: SCADA, MES, Edge analytics"
-        ],
+        "title": "Efficiency Proof: Next-Gen MOSFET & SiC Performance",
+        "subtitle": "Measurable R&D performance improvements in 2026",
+        "message": "Toshiba's U-MOS11-H and SiC Trench technologies show dramatic power-loss and resistance reductions.",
+        "chartData": [62, 30],
+        "labels": ["U-MOS11-H Index Improv.", "SiC Trench RDS Improv."],
         "metrics": [
-          { "label": "PLC solutions share", "value": "36.35%" },
-          { "label": "MES CAGR", "value": "9.95%" }
+          { "label": "Loss-Index Reduction", "value": "62%" },
+          { "label": "On-Resistance Improv.", "value": "30%" }
         ]
       }
     },
@@ -83,33 +83,32 @@
       "id": 6,
       "layout": "main",
       "content": {
-        "title": "Industrial Connectivity: Durable Category, APAC-Led Demand",
-        "subtitle": "Market expansion led by Asia-Pacific growth",
+        "title": "Strategic Demand Pools: Automotive & Data Centers",
+        "subtitle": "Alignment with Japan’s fastest-growing use cases",
         "keyPoints": [
-          "Industrial connectors projected to grow to USD 11.65B by 2035.",
-          "APAC accounts for over 44.5% of 2025 revenue.",
-          "Circular connector segment remains a dominant share at 31.5%."
+          "Automotive: Strong pull from EV drivetrain inverters, ADAS, and body electronics.",
+          "Data Centers: Critical demand for power efficiency in AI servers and thermal management.",
+          "Networking: 5G base stations and DC-DC converters account for 32.7% application share.",
+          "Industrial: Expansion in motor drives and high-precision automation controls."
         ],
         "metrics": [
-          { "label": "APAC revenue share", "value": "44.5%+" },
-          { "label": "Global CAGR", "value": "3.5%" }
+          { "label": "Networking Share", "value": "32.7%" },
+          { "label": "Priority Pools", "value": "Auto/AI-DC" }
         ]
       }
     },
     {
       "id": 7,
-      "layout": "main",
+      "layout": "graph",
       "content": {
-        "title": "Data Centers: A Visible 2026 Japan Growth Vector",
-        "subtitle": "Targeting redundancy and secure operations",
-        "keyPoints": [
-          "Focus on Data Center Japan 2026 Exhibition (Booth 2A-09).",
-          "Key solutions: Power Supply, UPS, and Surge protection.",
-          "Targeting secure networking and mission-critical reliability."
-        ],
+        "title": "Storage Trend: AI Workloads Keep HDDs Strategic",
+        "subtitle": "Benefiting from AI-era capacity pressure",
+        "message": "Global storage requirements are forecast to nearly double by 2029, reaching 20,000 exabytes.",
+        "chartData": [10000, 20000],
+        "labels": ["2025 (Est)", "2029 (Forecast)"],
         "metrics": [
-          { "label": "Event Date", "value": "March 2026" },
-          { "label": "Solution areas", "value": "Power, Cyber, Network" }
+          { "label": "2029 Storage Requirement", "value": "20k Exabytes" },
+          { "label": "Demand Growth", "value": "Nearly 2x" }
         ]
       }
     },
@@ -117,64 +116,49 @@
       "id": 8,
       "layout": "main",
       "content": {
-        "title": "Cybersecure Industrial Networking Becomes Core",
-        "subtitle": "Cybersecurity is now part of OT infrastructure procurement",
+        "title": "Competitive Landscape: Major Japanese Players",
+        "subtitle": "Toshiba's position in the domestic semiconductor ecosystem",
         "keyPoints": [
-          "CRA compliance and IEC 62443 standard compatibility.",
-          "FL MGUARD security product family as a central pillar.",
-          "Integration of secure industrial switches (Unmanaged, PoE, Managed)."
+          "Discrete/Logic/Analog: TDSC remains a global leader in power and storage.",
+          "Memory: Kioxia (NAND) remains a key related player.",
+          "Consolidation Group: Integration talks with ROHM and Mitsubishi Electric create a new power-giant.",
+          "Other Peers: Sony (Image sensors), Renesas (MCUs), Murata (Components)."
         ],
         "metrics": [
-          { "label": "Standard", "value": "IEC 62443" },
-          { "label": "Focus Family", "value": "FL MGUARD" }
+          { "label": "Major Players", "value": "7 Companies" },
+          { "label": "Consolidation Role", "value": "Strategic Core" }
         ]
       }
     },
     {
       "id": 9,
-      "layout": "main",
-      "content": {
-        "title": "Phoenix Contact Global Context: Recovery and Localization",
-        "subtitle": "Global investment supports Japan-market credibility",
-        "keyPoints": [
-          "Expected FY2025 turnover of EUR 3.3B with recovery trends.",
-          "Expansion of Vietnam site and Blomberg logistics (200,000 m3).",
-          "Localization efforts ensuring supply continuity for Japanese customers."
-        ],
-        "metrics": [
-          { "label": "FY2025 Turnover", "value": "EUR 3.3B" },
-          { "label": "Logistics Target", "value": "2028 Completion" }
-        ]
-      }
-    },
-    {
-      "id": 10,
       "layout": "testimonial",
       "content": {
-        "title": "Expert Voice: Technology-Led Sustainability",
-        "subtitle": "Strategic alignment with Japan's automation needs",
+        "title": "Expert Quote: The New Era of Data Growth",
+        "subtitle": "AI and cloud infrastructure drive storage opportunity",
         "quote": {
-          "text": "Despite all the challenges, we are convinced that technology is the key to a sustainable future.",
-          "speaker": "Ulrich Leidecker",
-          "title": "Chief Operating Officer, Phoenix Contact"
+          "text": "For Toshiba and its partners, these trends present both significant opportunities and challenges as the industry adapts to the new era of data growth.",
+          "speaker": "Rainer W. Kaese",
+          "title": "Senior Manager, HDD Business Development"
         }
       }
     },
     {
-      "id": 11,
+      "id": 10,
       "layout": "summary",
       "content": {
-        "title": "Strategic Implications for Phoenix Contact Japan",
-        "subtitle": "Prioritize solution bundles for high-growth sectors",
+        "title": "2026 Strategic Takeaways for TDSC Japan",
+        "subtitle": "Convergence of policy, scale, and infrastructure",
         "body": [
-          "Prioritize: Data-center redundancy and semiconductor automation bundles.",
-          "Scale: SME automation kits and connector replacement programs.",
-          "Maintain: Standalone terminal block and power supply sales.",
-          "Monitor: AI-native control use cases and new compliance demands."
+          "Consolidation is the headline: Moving toward a national power-semiconductor champion.",
+          "Scale Advantage: Tapping into a Japan market growing at 15.8% CAGR.",
+          "Efficiency Lead: Technical proof shows 30-62% performance gains in SiC/MOSFET.",
+          "Storage Resurgence: AI infrastructure demand doubles the HDD/SSD capacity requirement.",
+          "Strategic Play: Focus on 'integrated competitiveness' rather than isolated device sales."
         ],
         "metrics": [
-          { "label": "Highest market CAGR", "value": "12.1%" },
-          { "label": "Solution plays", "value": "5 bundles" }
+          { "label": "Japan Semi Market 2034", "value": "$175.25B" },
+          { "label": "Max Efficiency Gain", "value": "62%" }
         ]
       }
     }

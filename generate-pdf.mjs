@@ -18,7 +18,7 @@ import { PDFDocument } from 'pdf-lib';
 import fs from 'fs';
 
 // Total number of slides (must match slides.json)
-const TOTAL_SLIDES = 11;
+const TOTAL_SLIDES = 10;
 
 // Fine-tune this if any slide still clips
 const PDF_SCALE = 0.9;
@@ -98,7 +98,7 @@ const PDF_SCALE = 0.9;
    * Save final merged PDF.
    */
   const finalPdf = await mergedPdf.save();
-  const outputFileName = 'Phoenix_Contact_Japan_2026_Strategic_Infrastructure_Report.pdf';
+  const outputFileName = 'Toshiba_TDSC_Japan_2026_Strategic_Infrastructure_Report.pdf';
 
   fs.writeFileSync(outputFileName, finalPdf);
 
