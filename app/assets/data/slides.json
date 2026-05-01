@@ -4,30 +4,26 @@
       "id": 1,
       "layout": "hero",
       "content": {
-        "title": "VBScript Is Becoming a Platform Risk",
-        "subtitle": "2026: The Migration Planning Year for SAP Users",
-        "message": "Microsoft has deprecated VBScript. For SAP automation teams, this turns legacy GUI scripts from a convenience into a critical business continuity risk.",
+        "title": "Choose by Automation Layer, Not by Language Preference",
+        "subtitle": "2026 Strategy: PowerShell, TypeScript, and RPA Architecture",
+        "message": "The right decision is not one standard tool, but one standard selection model. Use PowerShell for the OS, TypeScript for the platform, and RPA for legacy gaps.",
         "metrics": [
-          { "label": "Default Disabled", "value": "2027" },
-          { "label": "Current Status", "value": "FOD (Win 11)" }
+          { "label": "Projected RPA CAGR (2026-33)", "value": "29.0%" },
+          { "label": "TS Enterprise Usage", "value": "40%" }
         ]
       }
     },
     {
       "id": 2,
-      "layout": "main",
+      "layout": "index",
       "content": {
-        "title": "Why SAP Users Are Exposed",
-        "subtitle": "Invisible dependencies outside the strategic stack",
-        "keyPoints": [
-          "Legacy reliance on .vbs launchers for unattended SAP GUI scripting.",
-          "Complex dependencies between Excel/VBA, COM objects, and file handling.",
-          "Undocumented desktop task automations creating 'shadow IT' risks.",
-          "Migration trigger: VBScript removal from future Windows releases."
-        ],
-        "metrics": [
-          { "label": "Primary Risk Year", "value": "2026" },
-          { "label": "Technical Fragility", "value": "High" }
+        "title": "Comparative Analysis: Tactical Alternatives",
+        "points": [
+          "The Problem: Risks of overstandardization",
+          "Decision Rule #1: PowerShell for OS-level boundaries",
+          "Decision Rule #2: TypeScript for platform-level boundaries",
+          "Decision Rule #3: RPA as a necessary legacy bridge",
+          "Recommended Operating Model and Final Policy"
         ]
       }
     },
@@ -35,47 +31,53 @@
       "id": 3,
       "layout": "main",
       "content": {
-        "title": "2026 Decision Framework",
-        "subtitle": "Matching the process to the right target architecture",
+        "title": "Problem: One Standard Creates Wrong Tradeoffs",
+        "subtitle": "A single-tool strategy increases automation debt",
         "keyPoints": [
-          "Low Complexity: Replace with PowerShell or JavaScript/TypeScript.",
-          "High Integration: Prioritize SAP APIs (OData/REST) and BTP services.",
-          "Legacy Gaps: Use governed Enterprise RPA as a bridge for GUI screens.",
-          "Modern Choice: SAP Build Process Automation for business-led workflows."
+          "PowerShell overreach: Using scripts for API-heavy products creates maintainability problems.",
+          "TypeScript overreach: Using cloud stacks for simple file operations adds unnecessary overhead.",
+          "RPA overreach: Using bots where APIs exist creates brittle and expensive automation.",
+          "Overstandardization causes teams to use strong tools in weak-fit situations."
         ],
         "metrics": [
-          { "label": "Migration Paths", "value": "5 Types" },
-          { "label": "Strategic Focus", "value": "API-First" }
+          { "label": "JavaScript-only users (2025)", "value": "6%" },
+          { "label": "RPA Market 2024", "value": "$3.6B" }
         ]
       }
     },
     {
       "id": 4,
-      "layout": "graph",
+      "layout": "main",
       "content": {
-        "title": "Market Momentum: RPA Still Growing",
-        "subtitle": "Bridging the gap for legacy SAP GUI screens",
-        "message": "The RPA market continues to expand at a 29% CAGR, shifting from simple screen scraping to governed automation platforms.",
-        "chartData": [6.04, 35.84],
-        "labels": ["2026", "2033"],
+        "title": "Solution #1: PowerShell for the Operating System",
+        "subtitle": "Best fit for file handling and shell execution",
+        "keyPoints": [
+          "Default choice for OS-level automation, file ingestion, and validation.",
+          "Handles rename/move/archive operations and scheduled batch jobs natively.",
+          "Ideal for server administration and shell command orchestration.",
+          "PowerShell 7.5 focus: Quality, security, and stability of the platform."
+        ],
         "metrics": [
-          { "label": "2026 Market Size", "value": "$6.04B" },
-          { "label": "2033 Forecast", "value": "$35.84B" }
+          { "label": "Base Version", "value": ".NET 9" },
+          { "label": "LTS Support", "value": "Nov 2026" }
         ]
       }
     },
     {
       "id": 5,
-      "layout": "graph",
+      "layout": "main",
       "content": {
-        "title": "Low-Code: The New Enterprise Default",
-        "subtitle": "Scaling beyond traditional script maintenance",
-        "message": "Low-code platforms are projected to reach $376B by 2034, offering a governance upgrade for fragile scripts.",
-        "chartData": [48.91, 376.92],
-        "labels": ["2026", "2034"],
+        "title": "Solution #2: TypeScript for the Platform",
+        "subtitle": "Best fit for BTP extensions and modern integration logic",
+        "keyPoints": [
+          "Strategic choice for SAP BTP, CAP services, and API-driven workflows.",
+          "Ideal for maintainable multi-developer codebases and event handling.",
+          "Native support for Node.js service layers and UI extension components.",
+          "TypeScript has become the preferred mode for enterprise-scale engineering."
+        ],
         "metrics": [
-          { "label": "2026-34 CAGR", "value": "29.1%" },
-          { "label": "Strategic Role", "value": "Governance" }
+          { "label": "TS usage (2025)", "value": "40%" },
+          { "label": "Baseline (2022)", "value": "28%" }
         ]
       }
     },
@@ -83,17 +85,17 @@
       "id": 6,
       "layout": "main",
       "content": {
-        "title": "SAP Cloud Momentum Pulls Automation Forward",
-        "subtitle": "Aligning modernization with SAP Q1 2026 results",
+        "title": "Solution #3: RPA as the Necessary Bridge",
+        "subtitle": "Use only when screens are the only available interface",
         "keyPoints": [
-          "Cloud ERP Suite revenue growth at +30% reinforces BTP-aligned strategy.",
-          "Current cloud backlog reached €21.9B as of early 2026.",
-          "Modernization should follow Cloud ERP patterns, not desktop-bound VBScript.",
-          "Strategic goal: Gains in market share through AI-driven cloud solutions."
+          "Justified when no stable API exists and legacy apps cannot be changed.",
+          "Acts as a bridge for GUI-only workflows to modern downstream systems.",
+          "Market demand remains high due to persistent legacy interface gaps.",
+          "Evolving from simple screen scraping to governed automation platforms."
         ],
         "metrics": [
-          { "label": "Cloud Growth", "value": "+27%" },
-          { "label": "ERP Suite Growth", "value": "+30%" }
+          { "label": "RPA market (2033)", "value": "$35.84B" },
+          { "label": "Market Growth", "value": "14.5%" }
         ]
       }
     },
@@ -101,64 +103,58 @@
       "id": 7,
       "layout": "main",
       "content": {
-        "title": "Target Architecture After VBScript",
-        "subtitle": "A resilient, layered automation stack",
+        "title": "Operating Model: API First, Script Second, RPA Last",
+        "subtitle": "A practical decision tree for enterprise teams",
         "keyPoints": [
-          "Orchestration: SAP Build Process Automation for approvals and rules.",
-          "Integration: SAP Integration Suite (REST/OData) as the core engine.",
-          "Execution: Tactical use of PowerShell/JS for OS and file tasks.",
-          "Intelligence: Joule Studio and AI Core for contextual multi-step tasks."
+          "Priority 1: If stable API/Event exists, use JavaScript/TypeScript on BTP.",
+          "Priority 2: If primarily an OS/file/system task, use PowerShell.",
+          "Priority 3: If only interface is a GUI, use governed Enterprise RPA.",
+          "A repeatable sequence prevents subjective and brittle tooling debates."
         ],
         "metrics": [
-          { "label": "Architecture Layers", "value": "6 Levels" },
-          { "label": "AI Tool Path", "value": "BTP Aligned" }
+          { "label": "Projected CAGR", "value": "29.0%" },
+          { "label": "Architecture Layers", "value": "6 Levels" }
         ]
       }
     },
     {
       "id": 8,
-      "layout": "summary",
+      "layout": "graph",
       "content": {
-        "title": "Alternative Selection Guide",
-        "subtitle": "Matching workload to replacement pattern",
-        "body": [
-          "PowerShell: Best for file handling and local Windows administration.",
-          "JavaScript/TS: Strong fit for BTP extensions and modern web stacks.",
-          "SAP Build: Strategic native option for process automation and rules.",
-          "Enterprise RPA: Necessary bridge for non-API legacy GUI screens.",
-          "Joule Agents: Emerging choice for knowledge-heavy, contextual tasks."
-        ],
+        "title": "Market Evidence: TypeScript Dominance",
+        "subtitle": "Exclusive usage continues to rise in modern work",
         "metrics": [
-          { "label": "Alternative Types", "value": "5 Keys" },
-          { "label": "Tactical Choice", "value": "PowerShell" }
-        ]
+          { "label": "2022 usage", "value": "28%" },
+          { "label": "2025 usage", "value": "40%" }
+        ],
+        "chartData": [28, 34, 40],
+        "labels": ["2022", "2024", "2025"]
       }
     },
     {
       "id": 9,
       "layout": "graph",
       "content": {
-        "title": "Migration Roadmap 2026-2027",
-        "subtitle": "Controlled transition before the default-disable milestone",
-        "message": "A phased approach from Discovery to Governance ensures business continuity without disruption.",
-        "chartData": [20, 40, 60, 80, 100],
-        "labels": ["Discover", "Classify", "Select", "Migrate", "Govern"],
+        "title": "Market Evidence: RPA Still Growing",
+        "subtitle": "Expansion remains real as categories evolve",
         "metrics": [
-          { "title": "Critical Phase", "label": "Inventory", "value": "Q2 2026" },
-          { "label": "Deadline", "value": "End of 2026" }
-        ]
+          { "label": "2024 size", "value": "$3.6B" },
+          { "label": "2033 forecast", "value": "$35.84B" }
+        ],
+        "chartData": [3.6, 4.68, 6.04, 35.84],
+        "labels": ["2024", "2025", "2026", "2033"]
       }
     },
     {
       "id": 10,
       "layout": "testimonial",
       "content": {
-        "title": "Management View: Strategic Gains",
-        "subtitle": "Growing faster than the market with AI",
+        "title": "Infrastructure View: Reliability Matters",
+        "subtitle": "Operational stability as the core requirement",
         "quote": {
-          "text": "We are growing faster than the market and are gaining share as customers expand across our Suite and with our AI solutions.",
-          "speaker": "Christian Klein",
-          "title": "CEO, SAP"
+          "text": "For this release the focus has been on quality, security and stability of the platform.",
+          "speaker": "Jason Helmick",
+          "title": "Senior Product Manager, PowerShell Team"
         }
       }
     },
@@ -166,18 +162,17 @@
       "id": 11,
       "layout": "summary",
       "content": {
-        "title": "Executive Recommendation",
-        "subtitle": " Modernizing the SAP automation window",
+        "title": "Final Recommendation: Three Tiers, Three Owners",
         "body": [
-          "Immediate: Launch global inventory of legacy .vbs and GUI scripts.",
-          "Policy: Enforce a 'No New VBScript' mandate for all developers.",
-          "Strategic: Pivot to SAP Build and APIs for critical business processes.",
-          "Tactical: Use PowerShell/JS as a direct replacement for OS-level tasks.",
+          "PowerShell: Operates the estate (Files, Admin, Jobs). Owned by IT Ops.",
+          "JavaScript/TypeScript: Extends the platform (BTP, APIs). Owned by Engineering.",
+          "Enterprise RPA: Bridges the legacy gap (GUI-only). Owned by Automation CoE.",
+          "Policy: Standardize the decision model, not a single language.",
           "KPI: Target 80%+ VBScript retirement by the end of 2026."
         ],
         "metrics": [
-          { "label": "Immediate Action", "value": "Inventory" },
-          { "label": "Retirement Target", "value": "80%+" }
+          { "label": "Retirement Target", "value": "80%+" },
+          { "label": "Action Priority", "value": "API-First" }
         ]
       }
     }

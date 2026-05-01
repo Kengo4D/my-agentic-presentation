@@ -1,0 +1,185 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "layout": "hero",
+      "content": {
+        "title": "VBScript Is Becoming a Platform Risk",
+        "subtitle": "2026: The Migration Planning Year for SAP Users",
+        "message": "Microsoft has deprecated VBScript. For SAP automation teams, this turns legacy GUI scripts from a convenience into a critical business continuity risk.",
+        "metrics": [
+          { "label": "Default Disabled", "value": "2027" },
+          { "label": "Current Status", "value": "FOD (Win 11)" }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "layout": "main",
+      "content": {
+        "title": "Why SAP Users Are Exposed",
+        "subtitle": "Invisible dependencies outside the strategic stack",
+        "keyPoints": [
+          "Legacy reliance on .vbs launchers for unattended SAP GUI scripting.",
+          "Complex dependencies between Excel/VBA, COM objects, and file handling.",
+          "Undocumented desktop task automations creating 'shadow IT' risks.",
+          "Migration trigger: VBScript removal from future Windows releases."
+        ],
+        "metrics": [
+          { "label": "Primary Risk Year", "value": "2026" },
+          { "label": "Technical Fragility", "value": "High" }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "layout": "main",
+      "content": {
+        "title": "2026 Decision Framework",
+        "subtitle": "Matching the process to the right target architecture",
+        "keyPoints": [
+          "Low Complexity: Replace with PowerShell or JavaScript/TypeScript.",
+          "High Integration: Prioritize SAP APIs (OData/REST) and BTP services.",
+          "Legacy Gaps: Use governed Enterprise RPA as a bridge for GUI screens.",
+          "Modern Choice: SAP Build Process Automation for business-led workflows."
+        ],
+        "metrics": [
+          { "label": "Migration Paths", "value": "5 Types" },
+          { "label": "Strategic Focus", "value": "API-First" }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "layout": "graph",
+      "content": {
+        "title": "Market Momentum: RPA Still Growing",
+        "subtitle": "Bridging the gap for legacy SAP GUI screens",
+        "message": "The RPA market continues to expand at a 29% CAGR, shifting from simple screen scraping to governed automation platforms.",
+        "chartData": [6.04, 35.84],
+        "labels": ["2026", "2033"],
+        "metrics": [
+          { "label": "2026 Market Size", "value": "$6.04B" },
+          { "label": "2033 Forecast", "value": "$35.84B" }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "layout": "graph",
+      "content": {
+        "title": "Low-Code: The New Enterprise Default",
+        "subtitle": "Scaling beyond traditional script maintenance",
+        "message": "Low-code platforms are projected to reach $376B by 2034, offering a governance upgrade for fragile scripts.",
+        "chartData": [48.91, 376.92],
+        "labels": ["2026", "2034"],
+        "metrics": [
+          { "label": "2026-34 CAGR", "value": "29.1%" },
+          { "label": "Strategic Role", "value": "Governance" }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "layout": "main",
+      "content": {
+        "title": "SAP Cloud Momentum Pulls Automation Forward",
+        "subtitle": "Aligning modernization with SAP Q1 2026 results",
+        "keyPoints": [
+          "Cloud ERP Suite revenue growth at +30% reinforces BTP-aligned strategy.",
+          "Current cloud backlog reached €21.9B as of early 2026.",
+          "Modernization should follow Cloud ERP patterns, not desktop-bound VBScript.",
+          "Strategic goal: Gains in market share through AI-driven cloud solutions."
+        ],
+        "metrics": [
+          { "label": "Cloud Growth", "value": "+27%" },
+          { "label": "ERP Suite Growth", "value": "+30%" }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "layout": "main",
+      "content": {
+        "title": "Target Architecture After VBScript",
+        "subtitle": "A resilient, layered automation stack",
+        "keyPoints": [
+          "Orchestration: SAP Build Process Automation for approvals and rules.",
+          "Integration: SAP Integration Suite (REST/OData) as the core engine.",
+          "Execution: Tactical use of PowerShell/JS for OS and file tasks.",
+          "Intelligence: Joule Studio and AI Core for contextual multi-step tasks."
+        ],
+        "metrics": [
+          { "label": "Architecture Layers", "value": "6 Levels" },
+          { "label": "AI Tool Path", "value": "BTP Aligned" }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "layout": "summary",
+      "content": {
+        "title": "Alternative Selection Guide",
+        "subtitle": "Matching workload to replacement pattern",
+        "body": [
+          "PowerShell: Best for file handling and local Windows administration.",
+          "JavaScript/TS: Strong fit for BTP extensions and modern web stacks.",
+          "SAP Build: Strategic native option for process automation and rules.",
+          "Enterprise RPA: Necessary bridge for non-API legacy GUI screens.",
+          "Joule Agents: Emerging choice for knowledge-heavy, contextual tasks."
+        ],
+        "metrics": [
+          { "label": "Alternative Types", "value": "5 Keys" },
+          { "label": "Tactical Choice", "value": "PowerShell" }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "layout": "graph",
+      "content": {
+        "title": "Migration Roadmap 2026-2027",
+        "subtitle": "Controlled transition before the default-disable milestone",
+        "message": "A phased approach from Discovery to Governance ensures business continuity without disruption.",
+        "chartData": [20, 40, 60, 80, 100],
+        "labels": ["Discover", "Classify", "Select", "Migrate", "Govern"],
+        "metrics": [
+          { "title": "Critical Phase", "label": "Inventory", "value": "Q2 2026" },
+          { "label": "Deadline", "value": "End of 2026" }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "layout": "testimonial",
+      "content": {
+        "title": "Management View: Strategic Gains",
+        "subtitle": "Growing faster than the market with AI",
+        "quote": {
+          "text": "We are growing faster than the market and are gaining share as customers expand across our Suite and with our AI solutions.",
+          "speaker": "Christian Klein",
+          "title": "CEO, SAP"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "layout": "summary",
+      "content": {
+        "title": "Executive Recommendation",
+        "subtitle": " Modernizing the SAP automation window",
+        "body": [
+          "Immediate: Launch global inventory of legacy .vbs and GUI scripts.",
+          "Policy: Enforce a 'No New VBScript' mandate for all developers.",
+          "Strategic: Pivot to SAP Build and APIs for critical business processes.",
+          "Tactical: Use PowerShell/JS as a direct replacement for OS-level tasks.",
+          "KPI: Target 80%+ VBScript retirement by the end of 2026."
+        ],
+        "metrics": [
+          { "label": "Immediate Action", "value": "Inventory" },
+          { "label": "Retirement Target", "value": "80%+" }
+        ]
+      }
+    }
+  ]
+}
